@@ -1,0 +1,69 @@
+{
+  "version": "2.11",
+  "variables": {
+    "primary": { "type": "color", "value": "#D63031" },
+    "secondary": { "type": "color", "value": "#1A3C34" },
+    "surface": { "type": "color", "value": "#F5F5F0" },
+    "text-primary": { "type": "color", "value": "#1A3C34" },
+    "text-secondary": { "type": "color", "value": "#5A6B66" }
+  },
+  "children": [
+    {
+      "id": "rCUzV",
+      "type": "frame",
+      "name": "Tech Invent - Homepage",
+      "width": 1440,
+      "height": 2520,
+      "layout": "vertical",
+      "fill": "#FFFFFF",
+      "children": [
+        { "id": "L6Kv4f", "type": "frame", "name": "Header", "height": 80, "layout": "horizontal", "padding": [0, 100] },
+        { "id": "yfoYj", "type": "frame", "name": "Hero", "height": 500, "layout": "vertical", "padding": [0, 100], "fill": "#1A3C34" },
+        { "id": "pcbIO", "type": "frame", "name": "About", "padding": [80, 100] },
+        { "id": "tnzrt", "type": "frame", "name": "Vision", "height": 675, "layout": "vertical", "padding": [80, 100], "fill": "#F5F5F0" },
+        { "id": "JCrlu", "type": "frame", "name": "Timeline", "height": 600, "layout": "vertical", "padding": [40, 100] },
+        { "id": "LkgcS", "type": "frame", "name": "Footer", "height": 120, "layout": "horizontal", "padding": [30, 100], "fill": "#1A3C34" }
+      ]
+    },
+    {
+      "id": "D0bq0",
+      "type": "frame",
+      "name": "Products Page",
+      "width": 1440,
+      "height": 1200,
+      "layout": "vertical",
+      "fill": "#FFFFFF",
+      "x": 1540
+    },
+    {
+      "id": "xmi2V",
+      "type": "frame",
+      "name": "Zehnder Products Page",
+      "width": 1440,
+      "height": 1086,
+      "layout": "vertical",
+      "fill": "#FFFFFF",
+      "x": 3080
+    },
+    {
+      "id": "E8h3j",
+      "type": "frame",
+      "name": "News Page",
+      "width": 1440,
+      "height": 1226,
+      "layout": "vertical",
+      "fill": "#FFFFFF",
+      "x": 4620
+    },
+    {
+      "id": "xr4vA",
+      "type": "frame",
+      "name": "Contact Page",
+      "width": 1440,
+      "height": 1000,
+      "layout": "vertical",
+      "fill": "#FFFFFF",
+      "x": 6160
+    }
+  ]
+}

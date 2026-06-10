@@ -1,0 +1,72 @@
+{
+  "colors": {
+    "primary": "#D63031",
+    "primaryDark": "#B82829",
+    "secondary": "#1A3C34",
+    "secondaryLight": "#2A9D6E",
+    "background": "#FFFFFF",
+    "surface": "#F5F5F0",
+    "textPrimary": "#1A3C34",
+    "textSecondary": "#5A6B66",
+    "textInverse": "#FFFFFF",
+    "textMuted": "#888888",
+    "border": "#E5E5E0"
+  },
+  "typography": {
+    "fontFamily": "Inter",
+    "fontFamilySecondary": "Inter",
+    "headingSizes": {
+      "h1": 56,
+      "h2": 48,
+      "h3": 36,
+      "h4": 24,
+      "h5": 20,
+      "h6": 16
+    },
+    "bodySize": 16,
+    "smallSize": 14,
+    "captionSize": 12,
+    "lineHeight": {
+      "heading": 1.1,
+      "body": 1.5,
+      "tight": 1.2
+    },
+    "fontWeight": {
+      "normal": "normal",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    }
+  },
+  "spacing": {
+    "sectionPadding": {
+      "vertical": 80,
+      "horizontal": 100
+    },
+    "gridGap": 24,
+    "cardPadding": 40,
+    "componentGap": 16
+  },
+  "borderRadius": {
+    "small": 4,
+    "medium": 8,
+    "large": 12
+  },
+  "shadows": {
+    "card": "0 4px 24px rgba(0, 0, 0, 0.08)",
+    "elevated": "0 8px 32px rgba(0, 0, 0, 0.12)"
+  },
+  "motion": {
+    "level": 2,
+    "scrollBehavior": "smooth",
+    "pageTransitions": true,
+    "hoverEffects": true,
+    "scrollAnimations": true,
+    "ambientAnimations": false
+  },
+  "layout": {
+    "maxWidth": 1440,
+    "headerHeight": 80,
+    "footerHeight": 120
+  }
+}

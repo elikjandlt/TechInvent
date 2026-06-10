@@ -1,0 +1,52 @@
+[
+  {
+    "section": "home",
+    "name": "Нүүр хуудас",
+    "slug": "home",
+    "description": "Tech Invent - Zehnder & BWT албан ёсны дистрибьютер",
+    "content": "Zehnder Group Indoor Climate Co., Ltd-ийн албан ёсны онцгой эрх бүхий дистрибьютер. Бид дотоод агаарын чанар, дулааны систем, агааржуулалтын шийдлээр Монголын зах зээлд тэргүүлж байна.",
+    "translations": [
+      { "language": "en", "title": "Home", "content": "Official exclusive distributor of Zehnder Group Indoor Climate Co., Ltd. We lead the Mongolian market in indoor air quality, heating systems, and ventilation solutions." }
+    ]
+  },
+  {
+    "section": "about",
+    "name": "Бидний тухай",
+    "slug": "about",
+    "description": "Tech Invent ХХК-ийн тухай",
+    "content": "Tech Invent ХХК нь 2015 онд байгуулагдсан бөгөөд Европын шилдэг брэндүүдийг Монголын зах зээлд нэвтрүүлэх чиглэлээр үйл ажиллагаа явуулдаг.",
+    "translations": [
+      { "language": "en", "title": "About Us", "content": "Tech Invent LLC was established in 2015 and operates in introducing European premium brands to the Mongolian market." }
+    ]
+  },
+  {
+    "section": "products",
+    "name": "Бүтээгдэхүүн",
+    "slug": "products",
+    "description": "Zehnder болон BWT бүтээгдэхүүнүүд",
+    "content": "Европын шилдэг технологи, Монголын зах зээлд. Дотоод агаарын шийдлүүд болон ус цэвэршүүлэх системүүд.",
+    "translations": [
+      { "language": "en", "title": "Products", "content": "European premium technology for the Mongolian market. Indoor climate solutions and water purification systems." }
+    ]
+  },
+  {
+    "section": "news",
+    "name": "Мэдээ",
+    "slug": "news",
+    "description": "Мэдээ мэдээлэл",
+    "content": "Tech Invent-ийн сонгон шүүрдсэн мэдээ мэдээлэл, шинэ бүтээгдэхүүн, үйл явдлууд.",
+    "translations": [
+      { "language": "en", "title": "News", "content": "Curated news, product updates, and events from Tech Invent." }
+    ]
+  },
+  {
+    "section": "contact",
+    "name": "Холбоо барих",
+    "slug": "contact",
+    "description": "Бидэнтэй холбогдоно уу",
+    "content": "Хаяг: Улаанбаатар хот, Сүхбаатар дүүрэг, 1-р хороо, Энхтайвны өргөн чөлөө 15. Утас: +976 7711 2233. Имэйл: info@techinvent.mn",
+    "translations": [
+      { "language": "en", "title": "Contact Us", "content": "Address: Ulaanbaatar city, Sukhbaatar district, 1st khoroo, Enkhtaivny urgun chuluu 15. Phone: +976 7711 2233. Email: info@techinvent.mn" }
+    ]
+  }
+]

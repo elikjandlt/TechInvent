@@ -1,0 +1,32 @@
+{
+  "category": { "name": "Мэдээ", "slug": "news" },
+  "posts": [
+    {
+      "title": "Zehnder шинэ ERV системээ танилцууллаа",
+      "slug": "zehnder-new-erv-system",
+      "excerpt": "2024 онд шинээр гаргасан ComfoAir Q350 TR систем нь өмнөх үеэсээ 15% илүү эрчим хүчний үр ашигтай.",
+      "content": "Zehnder компани 2024 онд шинээр гаргасан ComfoAir Q350 TR систем нь өмнөх үеэсээ 15% илүү эрчим хүчний үр ашигтай бөгөөд Монголын хэт хүйтэн өвлийн нөхцөлд тохирсон шийдэл юм.",
+      "translations": [
+        { "language": "en", "title": "Zehnder Introduces New ERV System", "excerpt": "The newly released ComfoAir Q350 TR system in 2024 is 15% more energy efficient than its predecessor.", "content": "Zehnder's newly released ComfoAir Q350 TR system in 2024 is 15% more energy efficient and designed for Mongolia's extremely cold winter conditions." }
+      ]
+    },
+    {
+      "title": "Tech Invent 100 дахь төслөө амжилттай хэрэгжүүллээ",
+      "slug": "tech-invent-100th-project",
+      "excerpt": "Барилгын салбарт 100 гаруй төсөл амжилттай хэрэгжүүлсэн нь бидний чадвар, туршлагын томоохон баталгаа боллоо.",
+      "content": "Tech Invent ХХК 2024 онд 100 дахь төслөө амжилттай хэрэгжүүллээ. Энэ нь бидний 9 жилийн туршлага, мэргэжлийн ур чадварын баталгаа юм.",
+      "translations": [
+        { "language": "en", "title": "Tech Invent Successfully Implements 100th Project", "excerpt": "Successfully implementing over 100 projects in the construction sector is a major testament to our capabilities and experience.", "content": "Tech Invent LLC successfully implemented its 100th project in 2024, marking 9 years of professional experience and expertise." }
+      ]
+    },
+    {
+      "title": "BWT шинэ ус цэвэршүүлэх технологи",
+      "slug": "bwt-new-water-technology",
+      "excerpt": "Магнийн технологиор усны чанарыг сайжруулах шинэ системийг Монголд нэвтрүүлэв.",
+      "content": "BWT компанийн шинэ магнийн технологиор ус цэвэршүүлэх систем нь Монголын хатуу усны нөхцөлд тохирсон шийдэл юм.",
+      "translations": [
+        { "language": "en", "title": "BWT New Water Purification Technology", "excerpt": "Introduced a new magnesium-based water quality improvement system in Mongolia.", "content": "BWT's new magnesium-based water purification system is designed for Mongolia's hard water conditions." }
+      ]
+    }
+  ]
+}

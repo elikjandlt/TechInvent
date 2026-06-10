@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Official exclusive distributor of Zehnder Group Indoor Climate Co., Ltd",
+    "title": "Your partner for healthy air and comfortable environment",
+    "description": "We lead the Mongolian market in indoor air quality, heating systems, and ventilation solutions.",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Tech Invent LLC was established in 2015 and operates in introducing European premium brands to the Mongolian market. We are the official distributor of Zehnder and BWT brands, supplying indoor air quality, heating systems, and water purification solutions for buildings, residential complexes, and public facilities."
+  },
+  "vision": {
+    "title": "Vision",
+    "subtitle": "Our Goals",
+    "cards": {
+      "quality": {
+        "title": "Quality",
+        "description": "Delivering European standard products to the Mongolian market"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Supporting air quality and healthy living with advanced technology"
+      },
+      "service": {
+        "title": "Service",
+        "description": "Professional consulting, installation, and maintenance services"
+      }
+    }
+  },
+  "timeline": {
+    "title": "Our History",
+    "subtitle": "From 2015 to present"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "European premium technology for the Mongolian market",
+    "zehnder": {
+      "title": "Zehnder",
+      "description": "Indoor climate solutions - ventilation and heating systems"
+    },
+    "bwt": {
+      "title": "BWT",
+      "description": "Water purification systems - residential and industrial solutions"
+    }
+  },
+  "news": {
+    "title": "News & Updates",
+    "featured": "Featured News",
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours"
+    }
+  },
+  "footer": {
+    "rights": "© 2024 Tech Invent LLC. All rights reserved."
+  }
+}

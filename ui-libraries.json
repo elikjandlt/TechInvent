@@ -1,0 +1,31 @@
+{
+  "framework": "nextjs",
+  "uiLibrary": "shadcn",
+  "animationLibraries": ["framer-motion"],
+  "iconLibrary": "lucide-react",
+  "components": [
+    "button",
+    "card",
+    "input",
+    "textarea",
+    "badge",
+    "separator"
+  ],
+  "customComponents": [],
+  "motionConfig": {
+    "scrollTrigger": false,
+    "pageTransition": {
+      "enabled": true,
+      "type": "fade"
+    },
+    "hoverEffects": {
+      "cards": true,
+      "buttons": true,
+      "images": false
+    },
+    "scrollAnimations": {
+      "fadeInUp": true,
+      "staggerChildren": true
+    }
+  }
+}
