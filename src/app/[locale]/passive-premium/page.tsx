@@ -450,27 +450,26 @@ export default function PassivePremiumPage() {
         </div>
       </section>
 
-      {/* 12 Values */}
+      {/* Values */}
       <section className="py-20 md:py-32 text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/passive-premium/passive03.webp"
+            src="/images/passive-premium/passive01.jpg"
             alt="Passive Premium values"
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-secondary/90" />
         </div>
 
         <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-primary" />
-            <span className="text-xs font-semibold tracking-[0.2em] text-white/50 uppercase">
+            <span className="text-xs font-semibold tracking-[0.2em] text-white/80 uppercase">
               ҮНЭ ЦЭНЭ · WHY IT PAYS
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 drop-shadow-lg">
             Гурван давхар <span className="italic font-serif font-normal text-primary">үнэ цэнэ</span>
           </h2>
 
@@ -482,12 +481,12 @@ export default function PassivePremiumPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors"
+                className="bg-black/40 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-black/50 transition-colors"
               >
                 <val.icon className="w-10 h-10 text-primary mb-6" />
                 <p className="text-2xl font-serif italic text-white mb-1">{val.title}</p>
-                <p className="text-sm font-semibold tracking-[0.15em] text-white/70 mb-4">{val.mnTitle}</p>
-                <p className="text-white/60 leading-relaxed">{val.desc}</p>
+                <p className="text-sm font-semibold tracking-[0.15em] text-white/80 mb-4">{val.mnTitle}</p>
+                <p className="text-white/80 leading-relaxed">{val.desc}</p>
               </motion.div>
             ))}
           </div>
