@@ -34,16 +34,16 @@ export default function Header() {
       <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
         <div className="flex items-center justify-between h-20">
           {/* Logos */}
-          <Link href={`/${locale}`} className="flex items-center gap-2">
-            <img
-              src="/images/zehnder.png"
-              alt="Zehnder"
-              className="h-10 w-auto object-contain"
-            />
+          <Link href={`/${locale}`} className="flex items-center gap-3">
             <img
               src="/images/techinvent.png"
               alt="Tech Invent"
-              className="h-10 w-auto object-contain"
+              className="h-12 w-auto object-contain"
+            />
+            <img
+              src="/images/zehnder.png"
+              alt="Zehnder"
+              className="h-12 w-auto object-contain"
             />
           </Link>
 

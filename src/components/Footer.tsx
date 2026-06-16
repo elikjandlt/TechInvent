@@ -17,16 +17,16 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/images/zehnder.png"
-                alt="Zehnder"
-                className="h-8 w-auto object-contain"
-              />
+            <div className="flex items-center gap-3 mb-4">
               <img
                 src="/images/techinvent.png"
                 alt="Tech Invent"
-                className="h-8 w-auto object-contain"
+                className="h-10 w-auto object-contain"
+              />
+              <img
+                src="/images/zehnder.png"
+                alt="Zehnder"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-4">
