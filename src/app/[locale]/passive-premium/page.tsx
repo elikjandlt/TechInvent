@@ -159,7 +159,7 @@ export default function PassivePremiumPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="border-t border-primary/40 pt-6"
+                className="border-t border-primary pt-6"
               >
                 <p className="text-xs tracking-[0.15em] text-white/50 uppercase mb-2">{stat.sub}</p>
                 <p className="text-4xl md:text-5xl font-light text-white mb-2">{stat.value}</p>

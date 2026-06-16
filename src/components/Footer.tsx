@@ -30,7 +30,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-4">
-              Zehnder & BWT брэндүүдийн албан ёсны дистрибьютер. 
+              Zehnder брэндийн албан ёсны дистрибьютер. 
               Дотоод агаарын чанар, дулааны системийн шийдлүүд.
             </p>
             <div className="flex items-center gap-3">
