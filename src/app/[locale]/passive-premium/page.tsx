@@ -149,7 +149,7 @@ export default function PassivePremiumPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 md:py-24 bg-secondary text-white">
+      <section className="py-16 md:py-24 bg-surface text-secondary">
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6">
             {stats.map((stat, index) => (
@@ -161,9 +161,9 @@ export default function PassivePremiumPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="border-t border-primary pt-6"
               >
-                <p className="text-xs tracking-[0.15em] text-white/50 uppercase mb-2">{stat.sub}</p>
-                <p className="text-4xl md:text-5xl font-light text-white mb-2">{stat.value}</p>
-                <p className="text-sm text-white/70">{stat.label}</p>
+                <p className="text-xs tracking-[0.15em] text-text-muted uppercase mb-2">{stat.sub}</p>
+                <p className="text-4xl md:text-5xl font-light text-secondary mb-2">{stat.value}</p>
+                <p className="text-sm text-text-secondary">{stat.label}</p>
               </motion.div>
             ))}
           </div>
@@ -235,20 +235,20 @@ export default function PassivePremiumPage() {
       </section>
 
       {/* 02 Standard */}
-      <section className="py-20 md:py-28 bg-secondary text-white">
+      <section className="py-20 md:py-28 bg-white text-secondary">
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-primary" />
-            <span className="text-xs font-semibold tracking-[0.2em] text-white/50 uppercase">
+            <span className="text-xs font-semibold tracking-[0.2em] text-text-muted uppercase">
               КОНЦЕПЦ · THE STANDARD
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
             Passive House <span className="italic font-serif font-normal text-primary">гэж юу вэ?</span>
           </h2>
 
-          <p className="text-lg text-white/70 max-w-3xl leading-relaxed mb-16">
+          <p className="text-lg text-text-secondary max-w-3xl leading-relaxed mb-16">
             Маш сайн дулаалга, агаар ул нэвтрүүлэх битүүмжлэл, дулаан сэлбэгдэг агааржуулалтаар
             эрчим хүчний хэрэглээг эрс багасгасан барилгын олон улсын стандарт. Premium түвшин
             нь хамгийн өндөр — өөрөө сэргээдэг эрчим хүч үйлдвэрлэдэг.
@@ -256,7 +256,7 @@ export default function PassivePremiumPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             <div>
-              <p className="text-xs tracking-[0.15em] text-white/50 uppercase mb-6">ГОЛ ШАЛГУУР ҮЗҮҮЛЭЛТҮҮД · CORE CRITERIA</p>
+              <p className="text-xs tracking-[0.15em] text-text-muted uppercase mb-6">ГОЛ ШАЛГУУР ҮЗҮҮЛЭЛТҮҮД · CORE CRITERIA</p>
               <div className="space-y-6">
                 {criteria.map((item, index) => (
                   <motion.div
@@ -265,12 +265,12 @@ export default function PassivePremiumPage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
-                    className="flex items-center gap-6 border-t border-white/10 pt-6"
+                    className="flex items-center gap-6 border-t border-border pt-6"
                   >
-                    <span className="text-4xl md:text-5xl font-light text-white w-28 shrink-0">{item.value}</span>
+                    <span className="text-4xl md:text-5xl font-light text-secondary w-28 shrink-0">{item.value}</span>
                     <div>
-                      <p className="font-medium text-white">{item.label}</p>
-                      <p className="text-sm text-white/50">{item.unit}</p>
+                      <p className="font-medium text-secondary">{item.label}</p>
+                      <p className="text-sm text-text-muted">{item.unit}</p>
                     </div>
                   </motion.div>
                 ))}
@@ -278,7 +278,7 @@ export default function PassivePremiumPage() {
             </div>
 
             <div>
-              <p className="text-xs tracking-[0.15em] text-white/50 uppercase mb-6">ГҮЙЦЭТГЭЛИЙН ШАТ · PERFORMANCE CLASSES</p>
+              <p className="text-xs tracking-[0.15em] text-text-muted uppercase mb-6">ГҮЙЦЭТГЭЛИЙН ШАТ · PERFORMANCE CLASSES</p>
               <div className="space-y-4">
                 {classes.map((cls, index) => (
                   <motion.div
@@ -287,13 +287,13 @@ export default function PassivePremiumPage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
-                    className={`flex items-center justify-between p-5 border ${cls.active ? "border-primary/50 bg-primary/10" : "border-white/10 bg-white/5"}`}
+                    className={`flex items-center justify-between p-5 border ${cls.active ? "border-primary/50 bg-primary/10" : "border-border bg-surface"}`}
                   >
                     <div className="flex items-center gap-6">
-                      <span className={`text-sm font-semibold tracking-[0.15em] ${cls.active ? "text-primary" : "text-white/70"}`}>{cls.name}</span>
-                      <span className="text-white/50 text-sm">{cls.value}</span>
+                      <span className={`text-sm font-semibold tracking-[0.15em] ${cls.active ? "text-primary" : "text-text-secondary"}`}>{cls.name}</span>
+                      <span className="text-text-muted text-sm">{cls.value}</span>
                     </div>
-                    <span className="text-sm text-white/50">{cls.desc}</span>
+                    <span className="text-sm text-text-muted">{cls.desc}</span>
                   </motion.div>
                 ))}
               </div>
@@ -341,13 +341,13 @@ export default function PassivePremiumPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-secondary text-white rounded-2xl p-8 md:p-10 border-l-4 border-primary"
+            className="bg-surface text-secondary rounded-2xl p-8 md:p-10 border-l-4 border-primary"
           >
-            <p className="text-xs tracking-[0.15em] text-white/50 uppercase mb-3">БОЛОМЖ · THE OPPORTUNITY</p>
+            <p className="text-xs tracking-[0.15em] text-text-muted uppercase mb-3">БОЛОМЖ · THE OPPORTUNITY</p>
             <p className="text-xl md:text-2xl font-medium mb-2">
               Хамгийн хатуу нөхцөл бол хамгийн том нотолгоо. Энд бүтэх юм бол хаана ч бүтнэ.
             </p>
-            <p className="text-white/60 italic">
+            <p className="text-text-secondary italic">
               If a Passive Premium home works in the world&apos;s coldest capital, it works anywhere.
             </p>
           </motion.div>
@@ -413,16 +413,16 @@ export default function PassivePremiumPage() {
       </section>
 
       {/* 08 System */}
-      <section className="py-20 md:py-28 bg-secondary text-white">
+      <section className="py-20 md:py-28 bg-white text-secondary">
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-primary" />
-            <span className="text-xs font-semibold tracking-[0.2em] text-white/50 uppercase">
+            <span className="text-xs font-semibold tracking-[0.2em] text-text-muted uppercase">
               ШИЙДЭЛ · THE SYSTEM
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
             Технологийн <span className="italic font-serif font-normal text-primary">дөрвөн тулгуур</span>
           </h2>
 
@@ -434,16 +434,16 @@ export default function PassivePremiumPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-colors"
+                className="bg-surface border border-border rounded-2xl p-6 hover:bg-white hover:shadow-lg transition-all"
               >
                 <div className="flex items-center justify-between mb-6">
                   <sys.icon className="w-8 h-8 text-primary" />
-                  <span className="text-xs tracking-[0.1em] text-white/50 uppercase">{sys.sub}</span>
+                  <span className="text-xs tracking-[0.1em] text-text-muted uppercase">{sys.sub}</span>
                 </div>
 
-                <p className="text-3xl font-light text-white mb-2">{sys.value}</p>
-                <p className="font-semibold text-white mb-3">{sys.label}</p>
-                <p className="text-sm text-white/60 leading-relaxed">{sys.desc}</p>
+                <p className="text-3xl font-light text-secondary mb-2">{sys.value}</p>
+                <p className="font-semibold text-secondary mb-3">{sys.label}</p>
+                <p className="text-sm text-text-secondary leading-relaxed">{sys.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -451,25 +451,16 @@ export default function PassivePremiumPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 md:py-32 text-white relative overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/passive-premium/passive01.jpg"
-            alt="Passive Premium values"
-            fill
-            className="object-cover"
-          />
-        </div>
-
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-[100px]">
+      <section className="py-20 md:py-32 bg-surface text-secondary">
+        <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-primary" />
-            <span className="text-xs font-semibold tracking-[0.2em] text-white/80 uppercase">
+            <span className="text-xs font-semibold tracking-[0.2em] text-text-muted uppercase">
               ҮНЭ ЦЭНЭ · WHY IT PAYS
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 drop-shadow-lg">
+          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
             Гурван давхар <span className="italic font-serif font-normal text-primary">үнэ цэнэ</span>
           </h2>
 
@@ -481,12 +472,12 @@ export default function PassivePremiumPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-black/40 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-black/50 transition-colors"
+                className="bg-white border border-border rounded-2xl p-8 hover:shadow-lg transition-shadow"
               >
                 <val.icon className="w-10 h-10 text-primary mb-6" />
-                <p className="text-2xl font-serif italic text-white mb-1">{val.title}</p>
-                <p className="text-sm font-semibold tracking-[0.15em] text-white/80 mb-4">{val.mnTitle}</p>
-                <p className="text-white/80 leading-relaxed">{val.desc}</p>
+                <p className="text-2xl font-serif italic text-secondary mb-1">{val.title}</p>
+                <p className="text-sm font-semibold tracking-[0.15em] text-text-muted mb-4">{val.mnTitle}</p>
+                <p className="text-text-secondary leading-relaxed">{val.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -537,7 +528,7 @@ export default function PassivePremiumPage() {
       </section>
 
       {/* 20 Next Project */}
-      <section className="py-20 md:py-28 bg-secondary text-white">
+      <section className="py-20 md:py-28 bg-surface text-secondary">
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[100px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <motion.div
@@ -548,14 +539,14 @@ export default function PassivePremiumPage() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 bg-primary" />
-                <span className="text-xs font-semibold tracking-[0.2em] text-white/50 uppercase">
+                <span className="text-xs font-semibold tracking-[0.2em] text-text-muted uppercase">
                   ИРЭЭДҮЙ · NEXT PROJECT (2027)
                 </span>
               </div>
 
-              <p className="text-7xl md:text-9xl font-light text-white mb-6">2027</p>
+              <p className="text-7xl md:text-9xl font-light text-secondary mb-6">2027</p>
 
-              <h2 className="text-3xl md:text-5xl font-bold mb-6">
+              <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
                 Дараагийн төсөл — <span className="italic font-serif font-normal text-primary">Passive Condo</span>
               </h2>
 
@@ -566,9 +557,9 @@ export default function PassivePremiumPage() {
                   "Эхний хаусын туршлага дээр суурьлина",
                   "Нийт 209.8 kW нарны систем (хөгжүүлэлт)",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-3 border-b border-white/10 pb-4">
+                  <div key={index} className="flex items-center gap-3 border-b border-border pb-4">
                     <Home className="w-4 h-4 text-primary" />
-                    <span className="text-white/80">{item}</span>
+                    <span className="text-text-secondary">{item}</span>
                   </div>
                 ))}
               </div>
