@@ -1,8 +1,13 @@
-// Minimal root layout — locale-specific layout in [locale]/layout.tsx handles html/body.
+import "./globals.css";
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <html lang="mn">
+      <body>{children}</body>
+    </html>
+  );
 }

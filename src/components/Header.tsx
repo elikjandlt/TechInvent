@@ -17,6 +17,7 @@ export default function Header() {
   const navItems = [
     { label: t("home"), href: `/${locale}` },
     { label: t("products"), href: `/${locale}/products` },
+    { label: t("passivePremium"), href: `/${locale}/passive-premium` },
     { label: t("news"), href: `/${locale}/news` },
     { label: t("contact"), href: `/${locale}/contact` },
   ];

@@ -99,8 +99,8 @@ export default function Footer() {
               <Link href="/products/zehnder/radiator" className="text-sm text-white/70 hover:text-white transition-colors">
                 Радиатор
               </Link>
-              <Link href="/products" className="text-sm text-white/70 hover:text-white transition-colors">
-                BWT Ус цэвэршүүлэлт
+              <Link href="/passive-premium" className="text-sm text-white/70 hover:text-white transition-colors">
+                Passive Premium
               </Link>
             </nav>
           </div>

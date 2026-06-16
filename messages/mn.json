@@ -3,6 +3,7 @@
     "home": "Нүүр",
     "about": "Бидний тухай",
     "products": "Бүтээгдэхүүн",
+    "passivePremium": "Passive Premium",
     "news": "Мэдээ",
     "contact": "Холбоо барих"
   },
@@ -45,9 +46,9 @@
       "title": "Zehnder",
       "description": "Дотоод агаарын шийдлүүд - агааржуулалт, дулааны систем"
     },
-    "bwt": {
-      "title": "BWT",
-      "description": "Ус цэвэршүүлэх систем - гэр ахуйн болон үйлдвэрлэлийн шийдлүүд"
+    "passivePremium": {
+      "title": "Passive Premium",
+      "description": "Passive House Premium сертификаттай, эрчим хүч үйлдвэрлэдэг орлоготой орон сууц"
     }
   },
   "news": {

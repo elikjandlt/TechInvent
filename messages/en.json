@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "products": "Products",
+    "passivePremium": "Passive Premium",
     "news": "News",
     "contact": "Contact"
   },
@@ -45,9 +46,9 @@
       "title": "Zehnder",
       "description": "Indoor climate solutions - ventilation and heating systems"
     },
-    "bwt": {
-      "title": "BWT",
-      "description": "Water purification systems - residential and industrial solutions"
+    "passivePremium": {
+      "title": "Passive Premium",
+      "description": "Passive House Premium certified energy-positive home that generates income"
     }
   },
   "news": {

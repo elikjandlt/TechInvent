@@ -1,12 +1,14 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "@/components/common/Image";
-import { Award, Handshake, Factory } from "lucide-react";
+import { Award, Handshake, Factory, ArrowRight } from "lucide-react";
 
 export default function About() {
   const t = useTranslations("about");
+  const locale = useLocale();
 
   return (
     <section id="about" className="py-20 bg-white">
@@ -33,9 +35,18 @@ export default function About() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Award className="w-6 h-6 text-primary" />
                 </div>
-                <div>
+                <div className="flex-1">
                   <h3 className="font-bold text-secondary mb-1">Passive Premium Сертификат</h3>
-                  <p className="text-text-secondary text-sm">Монголдоо анхны Пассив барилга дээр Passive Premium сертификат авч, эзэндээ нэмэлт орлого бүрдүүлдэг байшин болон хорооллыг бүтээн байгуулахаар ажиллаж байна.</p>
+                  <p className="text-text-secondary text-sm mb-3">
+                    Монголдоо анхны Пассив барилга дээр Passive Premium сертификат авч, эзэндээ нэмэлт орлого бүрдүүлдэг байшин болон хорооллыг бүтээн байгуулахаар ажиллаж байна.
+                  </p>
+                  <Link
+                    href={`/${locale}/passive-premium`}
+                    className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primaryDark transition-colors group"
+                  >
+                    Дэлгэрэнгүй
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
                 </div>
               </div>
               

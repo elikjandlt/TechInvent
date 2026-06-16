@@ -18,11 +18,11 @@ export default function ProductsPage() {
       subcategories: ["ERV Систем", "Радиатор"],
     },
     {
-      key: "bwt",
-      href: "#",
-      image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80",
+      key: "passivePremium",
+      href: "/passive-premium",
+      image: "/images/passive-premium/passive01.jpg",
       color: "#1A3C34",
-      subcategories: ["Ус цэвэршүүлэх"],
+      subcategories: ["Passive Premium"],
     },
   ];
 
@@ -74,8 +74,8 @@ export default function ProductsPage() {
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                      <div className="absolute bottom-4 left-4">
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                      <div className="absolute bottom-4 left-4 right-4">
                         <div 
                           className="text-white font-bold text-2xl mb-2"
                           style={{ textShadow: "0 2px 4px rgba(0,0,0,0.3)" }}
