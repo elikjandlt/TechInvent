@@ -103,13 +103,13 @@ export default function PassivePremiumPage() {
       <section className="relative min-h-[90vh] flex items-end pb-16 md:pb-28 pt-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/passive-premium/passive01.jpg"
+            src="/images/passive-premium/hero.jpg"
             alt="Passive Premium"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
         </div>
 
         <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-[100px] w-full">
