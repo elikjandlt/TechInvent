@@ -162,7 +162,7 @@ export default function PassivePremiumPage() {
                 className="border-t border-primary pt-6"
               >
                 <p className="text-xs tracking-[0.15em] text-text-muted uppercase mb-2">{stat.sub}</p>
-                <p className="text-4xl md:text-5xl font-light text-secondary mb-2">{stat.value}</p>
+                <p className="text-4xl md:text-4xl font-light text-secondary mb-2">{stat.value}</p>
                 <p className="text-sm text-text-secondary">{stat.label}</p>
               </motion.div>
             ))}
@@ -187,7 +187,7 @@ export default function PassivePremiumPage() {
                 </span>
               </div>
 
-              <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
                 Эрчим хүч үйлдвэрлэдэг
                 <br />
                 <span className="text-primary">байшин</span>
@@ -244,7 +244,7 @@ export default function PassivePremiumPage() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">
             Passive House <span className="text-primary">гэж юу вэ?</span>
           </h2>
 
@@ -267,7 +267,7 @@ export default function PassivePremiumPage() {
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="flex items-center gap-6 border-t border-border pt-6"
                   >
-                    <span className="text-4xl md:text-5xl font-light text-secondary w-28 shrink-0">{item.value}</span>
+                    <span className="text-4xl md:text-4xl font-light text-secondary w-28 shrink-0">{item.value}</span>
                     <div>
                       <p className="font-medium text-secondary">{item.label}</p>
                       <p className="text-sm text-text-muted">{item.unit}</p>
@@ -312,7 +312,7 @@ export default function PassivePremiumPage() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-12">
             Яагаад Монголд <span className="text-primary">бэрхшээлтэй</span> вэ?
           </h2>
 
@@ -387,7 +387,7 @@ export default function PassivePremiumPage() {
                 </span>
               </div>
 
-              <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-8">
                 Орчин үеийн <span className="text-primary">нэг давхар хаус</span>
               </h2>
 
@@ -422,7 +422,7 @@ export default function PassivePremiumPage() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-12">
             Технологийн <span className="text-primary">дөрвөн тулгуур</span>
           </h2>
 
@@ -460,7 +460,7 @@ export default function PassivePremiumPage() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-12">
             Гурван давхар <span className="text-primary">үнэ цэнэ</span>
           </h2>
 
@@ -494,7 +494,7 @@ export default function PassivePremiumPage() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-12">
             Барилгын төлөвлөгөө — <span className="text-primary">2026</span>
           </h2>
 
@@ -546,7 +546,7 @@ export default function PassivePremiumPage() {
 
               <p className="text-7xl md:text-9xl font-light text-secondary mb-6">2027</p>
 
-              <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">
                 Дараагийн төсөл — <span className="text-primary">Passive Condo</span>
               </h2>
 
@@ -594,7 +594,7 @@ export default function PassivePremiumPage() {
           >
             <p className="text-xs tracking-[0.2em] text-text-muted uppercase mb-4">COMFORT · SAVINGS · INCOME</p>
 
-            <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">
               Passive Premium <span className="text-primary">Орлоготой орон сууц</span>
             </h2>
 
