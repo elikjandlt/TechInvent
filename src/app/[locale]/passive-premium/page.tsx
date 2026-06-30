@@ -129,7 +129,7 @@ export default function PassivePremiumPage() {
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-[1.05]">
               Орлоготой
               <br />
-              <span className="italic font-serif font-normal">орон сууц</span>
+              <span className="">орон сууц</span>
             </h1>
 
             <p className="text-lg md:text-2xl text-white/80 max-w-2xl leading-relaxed mb-10">
@@ -190,7 +190,7 @@ export default function PassivePremiumPage() {
               <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-tight">
                 Эрчим хүч үйлдвэрлэдэг
                 <br />
-                <span className="italic font-serif font-normal text-primary">байшин</span>
+                <span className="text-primary">байшин</span>
               </h2>
 
               <p className="text-text-secondary leading-relaxed mb-8 text-lg">
@@ -245,7 +245,7 @@ export default function PassivePremiumPage() {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
-            Passive House <span className="italic font-serif font-normal text-primary">гэж юу вэ?</span>
+            Passive House <span className="text-primary">гэж юу вэ?</span>
           </h2>
 
           <p className="text-lg text-text-secondary max-w-3xl leading-relaxed mb-16">
@@ -313,7 +313,7 @@ export default function PassivePremiumPage() {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
-            Яагаад Монголд <span className="italic font-serif font-normal text-primary">бэрхшээлтэй</span> вэ?
+            Яагаад Монголд <span className="text-primary">бэрхшээлтэй</span> вэ?
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
@@ -347,7 +347,7 @@ export default function PassivePremiumPage() {
             <p className="text-xl md:text-2xl font-medium mb-2">
               Хамгийн хатуу нөхцөл бол хамгийн том нотолгоо. Энд бүтэх юм бол хаана ч бүтнэ.
             </p>
-            <p className="text-text-secondary italic">
+            <p className="text-text-secondary">
               If a Passive Premium home works in the world&apos;s coldest capital, it works anywhere.
             </p>
           </motion.div>
@@ -388,7 +388,7 @@ export default function PassivePremiumPage() {
               </div>
 
               <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-8">
-                Орчин үеийн <span className="italic font-serif font-normal text-primary">нэг давхар хаус</span>
+                Орчин үеийн <span className="text-primary">нэг давхар хаус</span>
               </h2>
 
               <div className="space-y-6">
@@ -423,7 +423,7 @@ export default function PassivePremiumPage() {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
-            Технологийн <span className="italic font-serif font-normal text-primary">дөрвөн тулгуур</span>
+            Технологийн <span className="text-primary">дөрвөн тулгуур</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -461,7 +461,7 @@ export default function PassivePremiumPage() {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
-            Гурван давхар <span className="italic font-serif font-normal text-primary">үнэ цэнэ</span>
+            Гурван давхар <span className="text-primary">үнэ цэнэ</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -475,7 +475,7 @@ export default function PassivePremiumPage() {
                 className="bg-white border border-border rounded-2xl p-8 hover:shadow-lg transition-shadow"
               >
                 <val.icon className="w-10 h-10 text-primary mb-6" />
-                <p className="text-2xl font-serif italic text-secondary mb-1">{val.title}</p>
+                <p className="text-2xl text-secondary mb-1">{val.title}</p>
                 <p className="text-sm font-semibold tracking-[0.15em] text-text-muted mb-4">{val.mnTitle}</p>
                 <p className="text-text-secondary leading-relaxed">{val.desc}</p>
               </motion.div>
@@ -495,7 +495,7 @@ export default function PassivePremiumPage() {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-12">
-            Барилгын төлөвлөгөө — <span className="italic font-serif font-normal text-primary">2026</span>
+            Барилгын төлөвлөгөө — <span className="text-primary">2026</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -547,7 +547,7 @@ export default function PassivePremiumPage() {
               <p className="text-7xl md:text-9xl font-light text-secondary mb-6">2027</p>
 
               <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
-                Дараагийн төсөл — <span className="italic font-serif font-normal text-primary">Passive Condo</span>
+                Дараагийн төсөл — <span className="text-primary">Passive Condo</span>
               </h2>
 
               <div className="space-y-4">
@@ -595,7 +595,7 @@ export default function PassivePremiumPage() {
             <p className="text-xs tracking-[0.2em] text-text-muted uppercase mb-4">COMFORT · SAVINGS · INCOME</p>
 
             <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6">
-              Passive Premium <span className="italic font-serif font-normal text-primary">Орлоготой орон сууц</span>
+              Passive Premium <span className="text-primary">Орлоготой орон сууц</span>
             </h2>
 
             <p className="text-lg text-text-secondary max-w-2xl mx-auto mb-8">
