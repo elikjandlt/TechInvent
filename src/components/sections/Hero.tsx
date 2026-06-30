@@ -111,7 +111,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-primary font-medium text-sm tracking-[3px] uppercase mb-6"
+            className="inline-block bg-primary text-white font-medium text-sm tracking-[3px] uppercase mb-6 px-5 py-2.5 rounded-sm shadow-lg"
           >
             {t("tag")}
           </motion.p>
